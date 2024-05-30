@@ -15,17 +15,21 @@ Grey dark 2: #777
 Grey dark 3: #999
 
 */
-* {
-  margin: 0;
-  padding: 0;
-}
 
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    
+}
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body {
-  background-color: blue;
+body{
+    background-color: blue;
 }
 
-/*# sourceMappingURL=style.css.map */
