@@ -87,4 +87,9 @@ body {
   height: 3.25rem;
 }
 
+.user-nav__icon {
+  height: 2rem;
+  width: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
