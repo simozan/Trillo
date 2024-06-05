@@ -67,6 +67,9 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -85,13 +88,30 @@ body {
 
 .logo {
   height: 3.25rem;
+  margin-left: 3rem;
 }
 
+.search {
+  background-color: orange;
+  flex: 0 0 40%;
+}
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: var(--color-grey-light-2);
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 100px;
+}
 .search__icon {
   height: 2rem;
   width: 2rem;
 }
 
+.user-nav {
+  background-color: green;
+}
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
