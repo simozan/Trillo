@@ -133,9 +133,8 @@
     width: 3px;
     background-color: var(--color-primary);
     transform: scaleY(0);
-    transition: transform 0.2s, 
-    width 0.4s cubic-bezier(1,0,0,1) 0.2s,
-    background-color .1s;
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
   }
   &__item:hover::before,
   &__item--active {
@@ -143,9 +142,9 @@
     width: 100%;
   }
 
-&__item:active::before{
-  background-color: var(--color-primary-light);
-}
+  &__item:active::before {
+    background-color: var(--color-primary-light);
+  }
 
   &__link:link,
   &__link:visited {
@@ -192,17 +191,28 @@
 //////////////////////////
 /// HOTEL OVERVIEW
 
-.overview{
+.overview {
+  display: flex;
   &__heading {
-
   }
   &__stars {
-    
+   // flex: 1
+   margin-right: auto;
   }
   &__icon-star,
   &__icon-location {
-    
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
   }
 
-  &__location
+  &__location {
+
+  }
+  &__rating {
+  }
+  &__rating-avarage {
+  }
+  &__rating-count {
+  }
 }
