@@ -241,4 +241,8 @@ body {
   padding: 2.5rem;
 }
 
+.gallery__photo {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

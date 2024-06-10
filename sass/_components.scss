@@ -177,3 +177,12 @@
   text-emphasis: center;
   padding: 2.5rem;
 }
+
+//////////////////////////
+/// GALLERY
+
+.gallery {
+  &__photo {
+    width: 100%;
+  }
+}
