@@ -221,18 +221,18 @@
     vertical-align: center;
   }
 
-  &__icon-location{
-    margin-left: .5rem;
+  &__icon-location {
+    margin-left: 0.5rem;
   }
   &__rating {
-    background-color: var(--color-primary) ;
-    color:#fff;
+    background-color: var(--color-primary);
+    color: #fff;
     margin-left: 3rem;
     padding: 0 2.25rem;
     align-self: stretch;
 
-    display: flex ;
-    flex-direction: column ;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -242,7 +242,7 @@
     margin-bottom: -3px;
   }
   &__rating-count {
-    font-size: .8rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
   }
 }
@@ -287,13 +287,13 @@
 }
 //////////////////////////
 /// PARAGRAPH
-.paragraph:not(:last-of-type){
+.paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
 }
 
 //////////////////////////
 /// LIST
-.list{
+.list {
   list-style: none;
   margin: 3rem 0;
   padding: 3rem 0;
@@ -303,16 +303,16 @@
   display: flex;
   flex-wrap: wrap;
 
-  &__item{
+  &__item {
     flex: 0 0 50%;
     margin-bottom: 0.7rem;
   }
-  &__item::before{
+  &__item::before {
     content: "";
     display: inline-block;
     height: 1rem;
     width: 1rem;
-    margin-right: .7rem;
+    margin-right: 0.7rem;
 
     // Older browser
     // background-image: url(../img/chevron-thin-right.svg);
@@ -328,15 +328,12 @@
 }
 //////////////////////////
 /// RECOMMEND
-/// 
-.recommend{
+///
+.recommend {
   font-size: 1.3rem;
-  color: var(--color-grey-light-3)
-
-&__count{
-  
-}
-
+  color: var(--color-grey-light-3);
+  &__count {
+  }
   &__photo {
     height: 4rem;
     width: 4rem;

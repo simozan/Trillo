@@ -386,7 +386,7 @@ body {
 
 .recommend {
   font-size: 1.3rem;
-  color: var(--color-grey-light-3) .recommend __count;
+  color: var(--color-grey-light-3);
 }
 .recommend__photo {
   height: 4rem;
