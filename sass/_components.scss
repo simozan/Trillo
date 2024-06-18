@@ -347,40 +347,38 @@
     width: 4rem;
     border-radius: 50%;
     border: 3px solid #fff;
-    &:not(:last-child){
+    &:not(:last-child) {
       margin-right: -1.5rem;
     }
   }
 }
 //////////////////////////
 /// REVIEWS
-.review{
-&__text{
-background-color: #fff;
-box-shadow: var(--shadow-light);
-padding: 3rem;
-margin-bottom: 3.5rem;
-}
-&__text{
+.review {
+  background-color: #fff;
 
-}
-&__user{
+  &__text {
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    margin-bottom: 3.5rem;
+  }
 
-}
-&__photo{
-height: 4.5rem;
-width: 4.5rem;
-border-radius: 50%;
-}
-&__user-box{
+  &__user {
+  }
+  &__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+  }
+  &__user-box {
+  }
 
-}
+  &__user-date {
+  }
 
-&__user-date{
+  &__user-name {
+  }
 
-}
-
-&__rating{
-
-}
+  &__rating {
+  }
 }

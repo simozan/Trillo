@@ -403,8 +403,10 @@ body {
   margin-right: -1.5rem;
 }
 
-.review__text {
+.review {
   background-color: #fff;
+}
+.review__text {
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
