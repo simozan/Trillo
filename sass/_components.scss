@@ -356,14 +356,16 @@
 /// REVIEWS
 .review {
   background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
 
   &__text {
-    box-shadow: var(--shadow-light);
-    padding: 3rem;
-    margin-bottom: 3.5rem;
   }
 
   &__user {
+    display: flex;
+    align-items: center;
   }
   &__photo {
     height: 4.5rem;
