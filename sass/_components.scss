@@ -257,10 +257,19 @@
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
-  transform: all 0.2sec;
+  transition: all 0.2sec;
+
+  & span {
+    margin-left: 3px;
+    transition: margin-left .2s;
+  }
 
   &:hover {
     color: var(--color-grey-dark-1);
+
+    span {
+      margin-left: 8px;
+    }
   }
 
   &:focus {
@@ -391,7 +400,7 @@
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: .4rem;
+    margin-bottom: 0.4rem;
   }
 
   &__rating {
@@ -400,8 +409,8 @@
     font-weight: 300;
   }
 
-  &::before{
-    content:"\201C";
+  &::before {
+    content: "\201C";
     position: absolute;
     top: -2.75rem;
     left: -1rem;
