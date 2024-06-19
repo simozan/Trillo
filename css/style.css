@@ -409,9 +409,13 @@ body {
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  position: relative;
+  overflow: hidden;
 }
 .review__text {
   margin-bottom: 2rem;
+  z-index: 10;
+  position: relative;
 }
 .review__user {
   display: flex;
@@ -444,10 +448,13 @@ body {
 .review::before {
   content: "“";
   position: absolute;
-  top: -2rem;
-  right: -1rem;
+  top: -2.75rem;
+  left: -1rem;
+  line-height: 1;
   font-size: 20rem;
   color: var(--color-grey-light-2);
+  font-family: sans-serif;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
