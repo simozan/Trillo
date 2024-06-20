@@ -261,7 +261,7 @@
 
   & span {
     margin-left: 3px;
-    transition: margin-left .2s;
+    transition: margin-left 0.2s;
   }
 
   &:hover {
@@ -424,11 +424,11 @@
 //////////////////////////
 /// CALL TO ACTION
 
-.cta{
+.cta {
   padding: 3.5rem 0;
   text-align: center;
 
-  &__book-now{
+  &__book-now {
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -445,11 +445,24 @@
   text-transform: uppercase;
   border-radius: 100px;
   border: none;
-
-  &__visible{
-
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary-light),
+    var(--color-primary-dark)
+  );
+  color: #fff;
+  position: relative;
+  &__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem;
   }
-  &__invisible{
-    
+  &__invisible {
+    display: inline-block;
+    position: absolute;
+    padding: 2rem 7.5rem;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:-100%;
   }
 }
