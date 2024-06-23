@@ -51,13 +51,13 @@
 
 .hotel-view {
   background-color: #fff;
-
   flex: 1;
 }
 
 .detail {
   font-size: 1.4rem;
   display: flex;
+ // flex-direction: column;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line);
